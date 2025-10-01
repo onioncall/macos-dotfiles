@@ -1,0 +1,6 @@
+imap jk <Esc> 
+let mapleader = " "
+map <leader>gc <Action>(CommentByLineComment)
+map <leader>gi <Action>(GotoImplementation)
+map <leader>gb <Action>(Back)
+set clipboard+=unnamed

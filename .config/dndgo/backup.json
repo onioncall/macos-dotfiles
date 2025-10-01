@@ -1,0 +1,356 @@
+{
+  "path": ".config/dndgo",
+  "name": "Nim",
+  "level": 3,
+  "class-name": "Bard",
+  "race": "Variant Human",
+  "background": "Artisan",
+  "feats": [
+    {
+      "name": "Actor",
+      "desc": "Advantage on Deception and Performance checks, mimic the speech of a person or the sounds made"
+    }
+  ],
+  "languages": [
+    "Common",
+    "Elvish",
+    "Orcish"
+  ],
+  "proficiency": 2,
+  "passive-perception": 15,
+  "passive-insight": 15,
+  "ac": 15,
+  "spell-save-dc": 17,
+  "hp-current": 15,
+  "hp-max": 24,
+  "initiative": 12,
+  "speed": 30,
+  "hit-dice": "2d8",
+  "attributes": [
+    {
+      "name": "Strength",
+      "base": 8,
+      "Adjusted": 0,
+      "AbilityModifier": 0,
+      "saving-throws-proficient": false
+    },
+    {
+      "name": "Dexterity",
+      "base": 14,
+      "Adjusted": 0,
+      "AbilityModifier": 0,
+      "saving-throws-proficient": true
+    },
+    {
+      "name": "Constitution",
+      "base": 10,
+      "Adjusted": 0,
+      "AbilityModifier": 0,
+      "saving-throws-proficient": false
+    },
+    {
+      "name": "Intelligence",
+      "base": 10,
+      "Adjusted": 0,
+      "AbilityModifier": 0,
+      "saving-throws-proficient": false
+    },
+    {
+      "name": "Wisdom",
+      "base": 16,
+      "Adjusted": 0,
+      "AbilityModifier": 0,
+      "saving-throws-proficient": true
+    },
+    {
+      "name": "Charisma",
+      "base": 18,
+      "Adjusted": 0,
+      "AbilityModifier": 0,
+      "saving-throws-proficient": true
+    }
+  ],
+  "skills": [
+    {
+      "attribute": "Strength",
+      "name": "Athletics",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Dexterity",
+      "name": "Acrobatics",
+      "SkillModifier": 0,
+      "proficient": true
+    },
+    {
+      "attribute": "Dexterity",
+      "name": "Slight of Hand",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Dexterity",
+      "name": "Stealth",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Intelligence",
+      "name": "Arcana",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Intelligence",
+      "name": "History",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Intelligence",
+      "name": "Investigation",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Intelligence",
+      "name": "Nature",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Intelligence",
+      "name": "Religion",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Wisdom",
+      "name": "Animal Handling",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Wisdom",
+      "name": "Insight",
+      "SkillModifier": 0,
+      "proficient": true
+    },
+    {
+      "attribute": "Wisdom",
+      "name": "Medicine",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Wisdom",
+      "name": "Perception",
+      "SkillModifier": 0,
+      "proficient": true
+    },
+    {
+      "attribute": "Wisdom",
+      "name": "Survival",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Charisma",
+      "name": "Deception",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Charisma",
+      "name": "Intimidation",
+      "SkillModifier": 0,
+      "proficient": false
+    },
+    {
+      "attribute": "Charisma",
+      "name": "Performance",
+      "SkillModifier": 0,
+      "proficient": true
+    },
+    {
+      "attribute": "Charisma",
+      "name": "Persuasion",
+      "SkillModifier": 0,
+      "proficient": true
+    }
+  ],
+  "spells": [
+    {
+      "is-caltrop": true,
+      "slot-level": 0,
+      "ritual": false,
+      "name": "Vicious Mockery"
+    },
+    {
+      "is-caltrop": true,
+      "slot-level": 0,
+      "ritual": false,
+      "name": "Thunderclap"
+    },
+    {
+      "is-caltrop": false,
+      "slot-level": 1,
+      "ritual": true,
+      "name": "Detect Magic"
+    },
+    {
+      "is-caltrop": false,
+      "slot-level": 1,
+      "ritual": false,
+      "name": "Healing Word"
+    },
+    {
+      "is-caltrop": false,
+      "slot-level": 1,
+      "ritual": false,
+      "name": "Dissonant Whispers"
+    },
+    {
+      "is-caltrop": false,
+      "slot-level": 1,
+      "ritual": false,
+      "name": "Silvery Barbs"
+    },
+    {
+      "is-caltrop": false,
+      "slot-level": 2,
+      "ritual": false,
+      "name": "Aid"
+    },
+    {
+      "is-caltrop": false,
+      "slot-level": 2,
+      "ritual": true,
+      "name": "Magic Mouth"
+    },
+    {
+      "is-caltrop": false,
+      "slot-level": 2,
+      "ritual": false,
+      "name": "Suggestion"
+    }
+  ],
+  "spell-slots": [
+    {
+      "level": 1,
+      "slot": 4,
+      "available": 2
+    },
+    {
+      "level": 2,
+      "slot": 2,
+      "available": 0
+    },
+    {
+      "level": 3,
+      "slot": 0,
+      "available": 0
+    },
+    {
+      "level": 4,
+      "slot": 0,
+      "available": 0
+    },
+    {
+      "level": 5,
+      "slot": 0,
+      "available": 0
+    },
+    {
+      "level": 6,
+      "slot": 0,
+      "available": 0
+    },
+    {
+      "level": 7,
+      "slot": 0,
+      "available": 0
+    },
+    {
+      "level": 8,
+      "slot": 0,
+      "available": 0
+    },
+    {
+      "level": 9,
+      "slot": 0,
+      "available": 0
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Rapier",
+      "bonus": 2,
+      "damage": "1d8",
+      "type": "Piercing",
+      "properties": "Finesse"
+    },
+    {
+      "name": "Dagger",
+      "bonus": 2,
+      "damage": "1d4",
+      "type": "Piercing",
+      "properties": "Finesse"
+    }
+  ],
+  "body-equipment": {
+    "head": "",
+    "amulet": "",
+    "cloak": "cloak of theatrical presence",
+    "armour": "leather armor",
+    "hands-arms": "",
+    "ring": "",
+    "ring2": "",
+    "belt": "",
+    "boots": ""
+  },
+  "backpack": [
+    {
+      "name": "Lute",
+      "quantity": 1
+    },
+    {
+      "name": "Other Musical Instruments",
+      "quantity": 3
+    },
+    {
+      "name": "Gold",
+      "quantity": 127
+    },
+    {
+      "name": "Entertainers Pack",
+      "quantity": 1
+    },
+    {
+      "name": "Brewers Surprise",
+      "quantity": 1
+    },
+    {
+      "name": "Potion of greater healing",
+      "quantity": 1
+    },
+    {
+      "name": "Potion of pass without trace",
+      "quantity": 1
+    },
+    {
+      "name": "Ocean Fathers Blessing (1/2)",
+      "quantity": 1
+    }
+  ],
+  "class-details": {
+    "slots": [
+      {
+        "name": "Bardic Inspiration",
+        "slot": 4,
+        "available": 3
+      }
+    ]
+  }
+}

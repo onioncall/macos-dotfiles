@@ -1,0 +1,10 @@
+{
+  "searchToggle": ["tab"],
+  "selectDirectory": ["enter"],
+  "enterDirectory": ["/"],
+  "exitApplication": ["esc", "q", "ctrl+c"],
+  "up": ["up", "k"],
+  "down": ["down", "j"],
+  "into": ["right", "l", "/"],
+  "outOf": ["left", "b"]
+}
