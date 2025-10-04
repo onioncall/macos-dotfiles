@@ -5,10 +5,11 @@ return  {
     config = function()
       require("mason").setup({
         PATH = "prepend",
-        -- registries = {
-        --   "github:mason-org/mason-registry",
-        --   "github:Crashdummyy/mason-registry",
-        -- },
+        registries = {
+          -- additional registries required for rosyln
+          "github:mason-org/mason-registry",
+          "github:Crashdummyy/mason-registry",
+        },
       })
     end,
   },
