@@ -27,5 +27,5 @@ vim.api.nvim_create_autocmd("FileType", {
 vim.keymap.set('i', 'jk', '<Esc>', { noremap = true })
 vim.keymap.set('t', 'jk', '<C-\\><C-n>', { noremap = true })
 vim.keymap.set('n', '<leader>cc', ':cclose<CR>', { noremap = true, silent = true })
-vim.keymap.set('n', '<Esc>', ':noh<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>rh', ':noh<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>gb', '<C-^>', { noremap = true })

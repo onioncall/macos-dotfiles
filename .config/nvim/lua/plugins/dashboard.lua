@@ -3,7 +3,7 @@ return {
   config = function()
     local alpha = require("alpha")
     local dashboard = require("alpha.themes.dashboard")
-    
+
     dashboard.section.header.val = {
       [[  **     ** ________  ______  **    ** ______ **       **   ]],
       [[ |  \   |  \        \/      \|  \  |  \      \  \     /  \  ]],
@@ -17,7 +17,7 @@ return {
       [[                                                            ]],
       [[                       **   breathe   **                    ]],
     }
-    
+
     alpha.setup(dashboard.config)
   end
 }

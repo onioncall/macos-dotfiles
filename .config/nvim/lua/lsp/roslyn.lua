@@ -1,0 +1,13 @@
+-- vim.api.nvim_create_autocmd('FileType', {
+--   pattern = 'cs',
+--   callback = function(ev)
+--     vim.lsp.start({
+--       name = 'roslyn',
+--       cmd = {
+--         'dotnet',
+--         vim.fs.joinpath(vim.fn.stdpath('data'), 'roslyn', 'Microsoft.CodeAnalysis.LanguageServer.dll'),
+--       },
+--       root_dir = vim.fs.root(ev.buf, {'*.sln', '*.csproj', '.git'}),
+--     })
+--   end,
+-- })

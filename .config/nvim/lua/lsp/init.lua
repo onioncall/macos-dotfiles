@@ -7,14 +7,14 @@ vim.api.nvim_create_autocmd('LspAttach', {
     vim.keymap.set('n', '<leader>gi', vim.lsp.buf.implementation, opts)
     vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, opts)
     vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, opts)
-    vim.keymap.set('n', '<leader>fr', function() 
-      require('snacks').picker.lsp_references() 
+    vim.keymap.set('n', '<leader>di', vim.diagnostic.open_float, opts)
+    vim.keymap.set('n', '<leader>fr', function()
+      require('snacks').picker.lsp_references()
     end, opts)
   end,
 })
-
 require("lsp.gopls")
 require("lsp.zls")
 require("lsp.tsserver")
 require("lsp.luals")
-require("lsp.csharp-ls")
+-- require("lsp.roslyn")

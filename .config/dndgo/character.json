@@ -1,7 +1,7 @@
 {
   "path": ".config/dndgo",
   "name": "Nim",
-  "level": 3,
+  "level": 4,
   "class-name": "Bard",
   "race": "Variant Human",
   "background": "Artisan",
@@ -9,6 +9,12 @@
     "Common",
     "Elvish",
     "Orcish"
+  ],
+  "feats": [
+    {
+      "name": "Actor",
+      "description": "Advantage on Deception and Performance checks, mimic the speech of a person or the sounds made."
+    }
   ],
   "proficiency": 2,
   "passive-perception": 15,

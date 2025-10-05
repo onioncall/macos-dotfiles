@@ -2,11 +2,14 @@
 
 **Name: Nim**
 
-Level: 3
+Level: 4
 Class: Bard
 Race: Variant Human
 Background: Artisan
 
+- Feats:
+	- Actor: Advantage on Deception and Performance checks, mimic the speech of a person or the sounds made.
+---
 - Languages:
 	- Common
 	- Elvish
@@ -28,7 +31,7 @@ Hit Dice: 2d8
 | Proficiency  | Base  | Modifier | Saving Throws |
 | --- | --- | --- | --- |
 | Strength | 8 | -1 | -1 |
-| Dexterity | 14 | +2 | +4 |
+| Dexterity | 16 | +3 | +5 |
 | Constitution | 10 | 0 | 0 |
 | Intelligence | 10 | 0 | 0 |
 | Wisdom | 16 | +3 | +5 |
@@ -39,9 +42,9 @@ Hit Dice: 2d8
 | Skill | Attribute | Modifier |
 | --- | --- | --- |
 | Athletics | Strength | 0 |
-| Acrobatics | Dexterity | +4 |
-| Slight of Hand | Dexterity | +3 |
-| Stealth | Dexterity | +3 |
+| Acrobatics | Dexterity | +5 |
+| Slight of Hand | Dexterity | +4 |
+| Stealth | Dexterity | +4 |
 | Arcana | Intelligence | +1 |
 | History | Intelligence | +1 |
 | Investigation | Intelligence | +1 |
@@ -118,17 +121,20 @@ Hit Dice: 2d8
 Bard Specific Slots
 Bardic Inspiration - ● ● ● ○ 
 
-Sub-Class Details
+Class Details
 ---
 Expertise
 - persuasion
 - deception
 
-*Bardic School of Creation*
+Ability Score Improvement
+- dexterity: +2
+
+Sub-Class: *Bardic School of Creation*
 
 ---
-Actor
-Advantage on Deception and Performance checks, mimic the speech of a person or the sounds made
+Bardic Inspiration
+As a bonus action, give an ally a d6 (scales with level) they can add to one attack roll, ability check, or saving throw within the next 10 minutes. You have a number of uses equal to your Charisma modifier (minimum 1), and regain all uses on a long rest.
 
 ---
 Song of Rest
@@ -136,10 +142,6 @@ Your music during a short rest heals allies and friendly creatures. Health recov
 - lvl 1: 1d8
 - lvl 9: 1d10
 - lvl 13: 1d12
-
----
-Bardic Inspiration
-As a bonus action, give an ally a d6 (scales with level) they can add to one attack roll, ability check, or saving throw within the next 10 minutes. You have a number of uses equal to your Charisma modifier (minimum 1), and regain all uses on a long rest
 
 ---
 Mote of Potential
@@ -157,6 +159,5 @@ Whenever you give a creature a Bardic Inspiration die, you can utter a note from
 ---
 Performance of Creation
 Channel the magic of the Song of Creation to create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The gp value of the item can't be more than 20 times your bard level, and the item must be Medium or smaller. The item glimmers softly, and a creature can faintly hear music when touching it. The created item disappears after a number of hours equal to your proficiency bonus.
-
 
 
